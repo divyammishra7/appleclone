@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Manrope:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+}
+   
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    background-color: black;
+    color: whitesmoke;
+    height:45px;
+    font-size: 12px;  
+    
+}
+    
+    
+
+.navbar img{
+    width: 15px;
+}
+.navbar li{
+    padding: 23px;
+}
+ul a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+li a:hover {
+    color: antiquewhite;
+    
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+
+    
+    margin-right:3px;
+    word-spacing: 1.5px;
+
+    
+    font-size: 15px;
+}
+.learn{
+    padding: 5px;
+}
+.front{
+    background-color: black;
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.front img{
+    width:300px;
+}
+.front h1{
+    color: white;
+    text-decoration: none;
+    margin-top: -50px;
+  font-size: 55px;
+  font-family: 'Manrope', sans-serif;
+}
+.front h2{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Manrope', sans-serif;
+}
+.front a{
+    color:aqua;
+    text-decoration: none;
+    margin-top: 12px;
+
+    font-family: 'Manrope', sans-serif;
+  
+font-size: 25px;
+}
+.navbar ul i{
+    color:white;
+    cursor: pointer;
+}
+
+
+.page2{
+
+    
+    background-color: #fffafa;
+    min-height: 210vh;
+    min-width: 70vw;
+    border-radius: 45px;
+    margin: 15px;
+}
+
+.tv {
+    display: flex;
+    justify-content: center;
+  
+}
+.tv img{
+    width: 1100px;
+}
+.content{
+    display: flex;
+
+ 
+ 
+
+    
+}
+.studio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.tvinfo{
+    font-family: 'Manrope', sans-serif;
+    font-size: 25px;
+    font-weight: 800px;
+margin-left:100px ;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.content h1{
+    font-weight: 800px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 70px;
+    margin-left:84px;
+  
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+
+}
+.learnmore{
+    margin-right: 20px;
+    margin-top: 35px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 100px;
+    border: 2px solid black;
+    background: none;
+
+    font-size: 18px;
+
+}
+.ordernow{
+    margin-top: 35px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 100px;
+    border: 2px solid black;
+    background: none;
+    font-size: 18px;
+
+
+}
+.learnmore:hover{
+    background-color:black;
+    color: white;
+    cursor: pointer;
+}
+.ordernow:hover{
+    background-color:black;
+    color: white;
+    cursor: pointer;
+}
+.mac{
+    display: flex;
+    flex-direction: column;
+ margin-left: 150px;
+    align-items: flex-start;
+    margin-top: -2px;
+}
+
+
+.button2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 115px;
+   
+    
+    margin-top: 35px;
+    
+    
+
+}
+.learn2{
+    margin-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 100px;
+    border: 2px solid black;
+    font-size: 18px;
+   background: none;
+}
+.order2{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 100px;
+    font-size: 18px;
+    border: 2px solid black;
+    background: none;
+}
+
+.learn2:hover{
+    background-color:black;
+    color: white;
+    cursor: pointer;
+}
+.order2:hover{
+    background-color:black;
+    color: white;
+    cursor: pointer;
+}
+  
